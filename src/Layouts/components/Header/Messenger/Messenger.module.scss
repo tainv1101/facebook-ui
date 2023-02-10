@@ -1,0 +1,68 @@
+.wrapper {
+    width: 360px;
+    border-radius: 8px;
+    padding: 0 2px 8px 8px;
+    box-shadow: var(--card-box-shadow);
+    background-color: #fff;
+}
+
+.items-list {
+    width: 100%;
+    max-height: 850px;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 8px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 8px;
+}
+
+.heading-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.acction {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &.use {
+        justify-content: flex-end;
+    }
+}
+
+.acction-btn {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: var(--hover-overlay);
+    }
+}
+
+.heading-icon {
+    font-size: 2rem;
+    color: #606770;
+}
+
+.account-item {
+    border-radius: 8px;
+
+    &:hover {
+        background-color: var(--hover-overlay-2);
+    }
+}

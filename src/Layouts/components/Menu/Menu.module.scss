@@ -1,0 +1,41 @@
+.items-list {
+    width: 360px;
+    box-shadow: var(--card-box-shadow);
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.menu-item {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    &:hover {
+        background-color: var(--hover-overlay-2);
+    }
+}
+
+.icon {
+    font-size: 2rem;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 12px 8px 0px;
+}
+
+.title {
+    font-size: 1.5rem;
+    flex: 1;
+    color: var(--text-color);
+    font-weight: 700;
+    padding: 12px 0;
+}

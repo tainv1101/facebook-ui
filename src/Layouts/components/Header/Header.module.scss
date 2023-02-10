@@ -1,0 +1,39 @@
+.wrapper {
+    height: 56px;
+    border-bottom: 1px solid #e4e6eb;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 16px;
+}
+
+// acction css
+.action {
+    width: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 16px;
+}
+
+.action-btn {
+    height: 40px;
+    width: 40px;
+    background-color: var(--background-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--hover-overlay);
+    }
+}
+
+.action-icon {
+    font-size: 2rem;
+}
